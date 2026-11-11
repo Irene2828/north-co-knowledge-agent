@@ -1,0 +1,32 @@
+{
+  "id": "supplier-invoice-process",
+  "title": "Supplier invoice process",
+  "category": "Head office",
+  "owner": "Finance and Workplace Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Validation",
+      "body": "Send supplier invoices to the Finance Operations queue with the purchase order reference and confirmation that goods or services were received. The receiving team checks quantities against the delivery record. A mismatch must be resolved before an invoice is approved for payment.",
+      "facts": [
+        {
+          "id": "supplier-invoice-process-1",
+          "text": "Supplier invoices need a purchase order and receipt confirmation."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Payment",
+      "body": "The standard payment term is thirty calendar days from validation of a complete invoice, unless the signed supplier agreement specifies otherwise. Finance verifies bank-detail changes through a separate established channel. Do not approve a change based only on an emailed invoice.",
+      "facts": [
+        {
+          "id": "supplier-invoice-process-2",
+          "text": "Standard supplier terms are net 30 from a validated invoice."
+        }
+      ]
+    }
+  ]
+}

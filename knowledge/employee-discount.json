@@ -1,0 +1,32 @@
+{
+  "id": "employee-discount",
+  "title": "Employee discount",
+  "category": "HR",
+  "owner": "People Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Discount",
+      "body": "Active employees receive thirty percent off regular-price merchandise for their own use. The benefit starts after the first completed shift and ends on the last day of employment. A staff identifier must be verified privately at checkout.",
+      "facts": [
+        {
+          "id": "employee-discount-1",
+          "text": "The employee discount is 30% on regular-price merchandise."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Limits",
+      "body": "The staff benefit cannot be stacked with a sale price, promotional code, or North Points redemption. Gift cards are excluded. A different associate must process the transaction. The store manager reviews exception requests before a purchase is completed.",
+      "facts": [
+        {
+          "id": "employee-discount-2",
+          "text": "Employee discounts cannot be combined with markdowns or promotions."
+        }
+      ]
+    }
+  ]
+}

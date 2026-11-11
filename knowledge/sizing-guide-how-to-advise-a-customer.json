@@ -1,0 +1,32 @@
+{
+  "id": "sizing-guide-how-to-advise-a-customer",
+  "title": "Sizing guide (how to advise a customer)",
+  "category": "Product & customers",
+  "owner": "Retail Experience",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Fit",
+      "body": "Start with the size chart attached to the specific garment rather than assuming sizes match across collections. Ask whether the customer prefers a close or relaxed fit. Offer the fitting room and an adjacent size without making comments about the customer’s body.",
+      "facts": [
+        {
+          "id": "sizing-guide-how-to-advise-a-customer-1",
+          "text": "Use the garment’s size chart and offer a fitting-room check."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Availability",
+      "body": "Use StockDesk to check current availability and ask the receiving store to confirm physical stock before offering a hold. Holds last until the end of the next trading day. Do not record body measurements or customer names in the public demonstration.",
+      "facts": [
+        {
+          "id": "sizing-guide-how-to-advise-a-customer-2",
+          "text": "Check StockDesk before promising a size in another store."
+        }
+      ]
+    }
+  ]
+}

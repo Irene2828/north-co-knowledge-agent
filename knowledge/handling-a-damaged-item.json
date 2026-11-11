@@ -1,0 +1,32 @@
+{
+  "id": "handling-a-damaged-item",
+  "title": "Handling a damaged item",
+  "category": "Store procedures",
+  "owner": "Store Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Isolation",
+      "body": "Take the damaged item off the selling floor immediately. Place it in the marked stockroom review bin with the SKU, date, and a short description of the defect. Do not photograph a customer or include any customer identifiers in the damage record.",
+      "facts": [
+        {
+          "id": "handling-a-damaged-item-1",
+          "text": "Remove damaged stock from sale and label it for review."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Disposition",
+      "body": "The duty manager reviews the item within two business days and records a write-off, repair, or supplier return decision. Associates must not independently discount damaged stock. A customer’s statutory rights for faulty goods are referred to the manager for assessment.",
+      "facts": [
+        {
+          "id": "handling-a-damaged-item-2",
+          "text": "A duty manager decides whether damaged stock is written off."
+        }
+      ]
+    }
+  ]
+}

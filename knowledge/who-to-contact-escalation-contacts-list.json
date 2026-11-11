@@ -1,0 +1,32 @@
+{
+  "id": "who-to-contact-escalation-contacts-list",
+  "title": "Who to contact (escalation contacts list)",
+  "category": "Safety & IT",
+  "owner": "Operations Support",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "General",
+      "body": "Use the Store Operations queue in StaffHub for questions the handbook does not answer. The duty manager is the first reviewer for store policy uncertainty. This fictional directory uses role-based queues only; no personal phone numbers, email addresses, or employee records belong in the demo.",
+      "facts": [
+        {
+          "id": "who-to-contact-escalation-contacts-list-1",
+          "text": "Escalate undocumented questions to the duty manager through Store Operations."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Specialists",
+      "body": "People Operations handles leave, pay, and workplace arrangements through its StaffHub queue. The IT Service Desk handles POS, account access, and lost devices through the IT queue. Finance Operations handles expenses and supplier invoices. Emergency services come first for immediate danger.",
+      "facts": [
+        {
+          "id": "who-to-contact-escalation-contacts-list-2",
+          "text": "Use People Operations for HR and the IT Service Desk for technical incidents."
+        }
+      ]
+    }
+  ]
+}

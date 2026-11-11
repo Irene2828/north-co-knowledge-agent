@@ -1,0 +1,32 @@
+{
+  "id": "sick-leave",
+  "title": "Sick leave",
+  "category": "HR",
+  "owner": "People Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Reporting",
+      "body": "Call the duty manager before the scheduled shift begins. A message in the store group chat is not a substitute for that call. If the manager cannot answer, use the store operations escalation queue. Do not include a diagnosis in a shared channel.",
+      "facts": [
+        {
+          "id": "sick-leave-1",
+          "text": "Tell the duty manager before your shift if you are sick."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Allowance",
+      "body": "The company provides five paid sick days per calendar year to eligible employees after ninety days of service. Statutory entitlements may be greater; People Operations checks the applicable provincial rules. Unused company sick days do not carry forward.",
+      "facts": [
+        {
+          "id": "sick-leave-2",
+          "text": "North & Co. provides 5 paid sick days each calendar year."
+        }
+      ]
+    }
+  ]
+}

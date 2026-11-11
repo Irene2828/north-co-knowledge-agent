@@ -1,0 +1,32 @@
+{
+  "id": "opening-the-store",
+  "title": "Opening the store",
+  "category": "Store procedures",
+  "owner": "Store Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Entry",
+      "body": "Two scheduled colleagues enter together, disarm the alarm, and check the entrance for damage before opening. If there are signs of forced entry, remain outside and contact emergency services when there is immediate danger. Notify the duty manager next.",
+      "facts": [
+        {
+          "id": "opening-the-store-1",
+          "text": "Two colleagues must be present for store opening."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Readiness",
+      "body": "Finish the safety walk, fitting-room inspection, POS test, and float verification fifteen minutes before posted opening time. The standard till float is CAD 200. Record completion in the daily store log and keep the doors locked until the duty manager releases the floor.",
+      "facts": [
+        {
+          "id": "opening-the-store-2",
+          "text": "Complete the opening checklist 15 minutes before trading starts."
+        }
+      ]
+    }
+  ]
+}

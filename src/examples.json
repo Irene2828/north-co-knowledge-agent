@@ -1,0 +1,424 @@
+[
+  {
+    "id": "be2e2cf6-221b-4658-9bcb-5e5630166b46",
+    "createdAt": "2026-03-02T15:00:00.000Z",
+    "question": "What is the employee discount?",
+    "retrieved": [
+      {
+        "id": "employee-discount",
+        "title": "Employee discount",
+        "score": 8,
+        "matched": ["employee", "discount"]
+      },
+      {
+        "id": "gift-cards",
+        "title": "Gift cards",
+        "score": 2,
+        "matched": ["employee", "discount"]
+      },
+      {
+        "id": "loyalty-program-north-points",
+        "title": "Loyalty program \"North Points\"",
+        "score": 2,
+        "matched": ["employee", "discount"]
+      },
+      {
+        "id": "who-to-contact-escalation-contacts-list",
+        "title": "Who to contact (escalation contacts list)",
+        "score": 0,
+        "matched": [],
+        "reason": "Always included for escalation routing."
+      }
+    ],
+    "answer": [
+      {
+        "factId": "employee-discount-1",
+        "text": "The employee discount is 30% on regular-price merchandise.",
+        "docId": "employee-discount",
+        "section": "Discount",
+        "title": "Employee discount"
+      }
+    ],
+    "message": "",
+    "verdict": "PASS",
+    "retries": 0,
+    "durationMs": 13,
+    "events": [
+      {
+        "step": "Ask",
+        "ms": 0,
+        "question": "What is the employee discount?"
+      },
+      {
+        "step": "Retrieve",
+        "ms": 8,
+        "docs": [
+          {
+            "id": "employee-discount",
+            "title": "Employee discount",
+            "score": 8,
+            "matched": ["employee", "discount"]
+          },
+          {
+            "id": "gift-cards",
+            "title": "Gift cards",
+            "score": 2,
+            "matched": ["employee", "discount"]
+          },
+          {
+            "id": "loyalty-program-north-points",
+            "title": "Loyalty program \"North Points\"",
+            "score": 2,
+            "matched": ["employee", "discount"]
+          },
+          {
+            "id": "who-to-contact-escalation-contacts-list",
+            "title": "Who to contact (escalation contacts list)",
+            "score": 0,
+            "matched": [],
+            "reason": "Always included for escalation routing."
+          }
+        ],
+        "rule": "Unique keyword overlap: title match +4, body match +1. Minimum score 2; top 4 matches, plus the escalation directory."
+      },
+      {
+        "step": "Draft",
+        "ms": 8,
+        "status": "running",
+        "attempt": 0
+      },
+      {
+        "step": "Draft",
+        "ms": 8,
+        "attempt": 0,
+        "draft": {
+          "kind": "answer",
+          "claims": [
+            {
+              "factId": "employee-discount-1",
+              "text": "The employee discount is 30% on regular-price merchandise.",
+              "docId": "employee-discount",
+              "section": "Discount"
+            }
+          ]
+        }
+      },
+      {
+        "step": "Judge",
+        "ms": 8,
+        "status": "running",
+        "attempt": 0
+      },
+      {
+        "step": "Judge",
+        "ms": 8,
+        "attempt": 0,
+        "verdict": "PASS",
+        "groundedness": 1,
+        "clarity": 1,
+        "confidence": 1,
+        "notes": ["All claims match the retrieved facts."],
+        "deterministicPassed": true
+      },
+      {
+        "step": "Log",
+        "ms": 13,
+        "status": "complete"
+      }
+    ],
+    "approval": "not-required",
+    "escalation": null,
+    "example": true,
+    "timingLabel": "Measured local harness time; scripted model fixture, not live model latency."
+  },
+  {
+    "id": "157074cd-b8fd-4ecf-bfec-ad79bbbd44c6",
+    "createdAt": "2026-03-02T15:00:00.000Z",
+    "question": "Does North & Co. offer dental insurance?",
+    "retrieved": [
+      {
+        "id": "who-to-contact-escalation-contacts-list",
+        "title": "Who to contact (escalation contacts list)",
+        "score": 0,
+        "matched": [],
+        "reason": "Always included for escalation routing."
+      }
+    ],
+    "answer": [],
+    "message": "I don't know — this isn't in our documents",
+    "verdict": "ESCALATE",
+    "retries": 0,
+    "durationMs": 1,
+    "events": [
+      {
+        "step": "Ask",
+        "ms": 0,
+        "question": "Does North & Co. offer dental insurance?"
+      },
+      {
+        "step": "Retrieve",
+        "ms": 1,
+        "docs": [
+          {
+            "id": "who-to-contact-escalation-contacts-list",
+            "title": "Who to contact (escalation contacts list)",
+            "score": 0,
+            "matched": [],
+            "reason": "Always included for escalation routing."
+          }
+        ],
+        "rule": "Unique keyword overlap: title match +4, body match +1. Minimum score 2; top 4 matches, plus the escalation directory."
+      },
+      {
+        "step": "Draft",
+        "ms": 1,
+        "status": "running",
+        "attempt": 0
+      },
+      {
+        "step": "Draft",
+        "ms": 1,
+        "attempt": 0,
+        "draft": {
+          "kind": "unknown",
+          "claims": []
+        }
+      },
+      {
+        "step": "Judge",
+        "ms": 1,
+        "status": "running",
+        "attempt": 0
+      },
+      {
+        "step": "Judge",
+        "ms": 1,
+        "attempt": 0,
+        "verdict": "ESCALATE",
+        "groundedness": 1,
+        "clarity": 1,
+        "confidence": 1,
+        "notes": [
+          "Dental insurance is not covered by the retrieved documents."
+        ],
+        "deterministicPassed": true
+      },
+      {
+        "step": "Approve",
+        "ms": 1,
+        "status": "pending",
+        "note": "A visitor can act as the demo reviewer. This is a simulated review, not a company approval."
+      },
+      {
+        "step": "Log",
+        "ms": 1,
+        "status": "awaiting-review"
+      }
+    ],
+    "approval": "pending",
+    "escalation": {
+      "id": "who-to-contact-escalation-contacts-list-1",
+      "text": "Escalate undocumented questions to the duty manager through Store Operations.",
+      "docId": "who-to-contact-escalation-contacts-list",
+      "title": "Who to contact (escalation contacts list)",
+      "section": "General",
+      "sectionId": "policy"
+    },
+    "example": true,
+    "timingLabel": "Measured local harness time; scripted model fixture, not live model latency."
+  },
+  {
+    "id": "51f7270e-5f58-4c65-9e8d-a99cd3963feb",
+    "createdAt": "2026-03-02T15:00:00.000Z",
+    "question": "Is the return window 60 days?",
+    "retrieved": [
+      {
+        "id": "return-and-exchange-policy-customers",
+        "title": "Return and exchange policy (customers)",
+        "score": 6,
+        "matched": ["return", "window", "days"]
+      },
+      {
+        "id": "handling-a-customer-return",
+        "title": "Handling a customer return",
+        "score": 5,
+        "matched": ["return", "days"]
+      },
+      {
+        "id": "handling-a-damaged-item",
+        "title": "Handling a damaged item",
+        "score": 2,
+        "matched": ["return", "days"]
+      },
+      {
+        "id": "onboarding-checklist-new-store-staff",
+        "title": "Onboarding checklist (new store staff)",
+        "score": 2,
+        "matched": ["return", "days"]
+      },
+      {
+        "id": "who-to-contact-escalation-contacts-list",
+        "title": "Who to contact (escalation contacts list)",
+        "score": 0,
+        "matched": [],
+        "reason": "Always included for escalation routing."
+      }
+    ],
+    "answer": [
+      {
+        "factId": "return-and-exchange-policy-customers-1",
+        "text": "The return and exchange window is 30 days from purchase.",
+        "docId": "return-and-exchange-policy-customers",
+        "section": "Window",
+        "title": "Return and exchange policy (customers)"
+      }
+    ],
+    "message": "",
+    "verdict": "PASS",
+    "retries": 1,
+    "durationMs": 1,
+    "events": [
+      {
+        "step": "Ask",
+        "ms": 0,
+        "question": "Is the return window 60 days?"
+      },
+      {
+        "step": "Retrieve",
+        "ms": 1,
+        "docs": [
+          {
+            "id": "return-and-exchange-policy-customers",
+            "title": "Return and exchange policy (customers)",
+            "score": 6,
+            "matched": ["return", "window", "days"]
+          },
+          {
+            "id": "handling-a-customer-return",
+            "title": "Handling a customer return",
+            "score": 5,
+            "matched": ["return", "days"]
+          },
+          {
+            "id": "handling-a-damaged-item",
+            "title": "Handling a damaged item",
+            "score": 2,
+            "matched": ["return", "days"]
+          },
+          {
+            "id": "onboarding-checklist-new-store-staff",
+            "title": "Onboarding checklist (new store staff)",
+            "score": 2,
+            "matched": ["return", "days"]
+          },
+          {
+            "id": "who-to-contact-escalation-contacts-list",
+            "title": "Who to contact (escalation contacts list)",
+            "score": 0,
+            "matched": [],
+            "reason": "Always included for escalation routing."
+          }
+        ],
+        "rule": "Unique keyword overlap: title match +4, body match +1. Minimum score 2; top 4 matches, plus the escalation directory."
+      },
+      {
+        "step": "Draft",
+        "ms": 1,
+        "status": "running",
+        "attempt": 0
+      },
+      {
+        "step": "Draft",
+        "ms": 1,
+        "attempt": 0,
+        "draft": {
+          "kind": "answer",
+          "claims": [
+            {
+              "text": "The return and exchange window is 60 days from purchase.",
+              "docId": "return-and-exchange-policy-customers",
+              "section": "Window"
+            }
+          ]
+        }
+      },
+      {
+        "step": "Judge",
+        "ms": 1,
+        "status": "running",
+        "attempt": 0
+      },
+      {
+        "step": "Judge",
+        "ms": 1,
+        "attempt": 0,
+        "verdict": "NEEDS FIX",
+        "groundedness": 0,
+        "clarity": 1,
+        "confidence": 1,
+        "notes": [
+          "Claim differs from its approved source fact; unsupported fact or quotation.",
+          "The draft says 60 days. The source policy specifies 30 days."
+        ],
+        "deterministicPassed": false
+      },
+      {
+        "step": "Loop",
+        "ms": 1,
+        "retry": 1,
+        "notes": [
+          "Claim differs from its approved source fact; unsupported fact or quotation.",
+          "The draft says 60 days. The source policy specifies 30 days."
+        ]
+      },
+      {
+        "step": "Draft",
+        "ms": 1,
+        "status": "running",
+        "attempt": 1
+      },
+      {
+        "step": "Draft",
+        "ms": 1,
+        "attempt": 1,
+        "draft": {
+          "kind": "answer",
+          "claims": [
+            {
+              "factId": "return-and-exchange-policy-customers-1",
+              "text": "The return and exchange window is 30 days from purchase.",
+              "docId": "return-and-exchange-policy-customers",
+              "section": "Window"
+            }
+          ]
+        }
+      },
+      {
+        "step": "Judge",
+        "ms": 1,
+        "status": "running",
+        "attempt": 1
+      },
+      {
+        "step": "Judge",
+        "ms": 1,
+        "attempt": 1,
+        "verdict": "PASS",
+        "groundedness": 1,
+        "clarity": 1,
+        "confidence": 1,
+        "notes": ["All claims match the retrieved facts."],
+        "deterministicPassed": true
+      },
+      {
+        "step": "Log",
+        "ms": 1,
+        "status": "complete"
+      }
+    ],
+    "approval": "not-required",
+    "escalation": null,
+    "example": true,
+    "timingLabel": "Measured local harness time; scripted model fixture, not live model latency."
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "id": "gift-cards",
+  "title": "Gift cards",
+  "category": "Product & customers",
+  "owner": "Retail Experience",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Value",
+      "body": "North & Co. sells Canadian-dollar gift cards with an initial value between ten and five hundred dollars. Cards can be redeemed at any company store. The fictional chain does not offer online checkout, so do not promise website redemption.",
+      "facts": [
+        {
+          "id": "gift-cards-1",
+          "text": "Gift cards are sold in CAD 10 to CAD 500 amounts."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Conditions",
+      "body": "Purchased gift-card value has no expiry date or maintenance fee. Gift cards are excluded from the staff discount. A lost card may be reviewed by the duty manager if the original purchase receipt is available; replacement must never be promised.",
+      "facts": [
+        {
+          "id": "gift-cards-2",
+          "text": "Gift cards have no expiry date and cannot receive the employee discount."
+        }
+      ]
+    }
+  ]
+}

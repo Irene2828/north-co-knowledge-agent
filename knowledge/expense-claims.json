@@ -1,0 +1,32 @@
+{
+  "id": "expense-claims",
+  "title": "Expense claims",
+  "category": "Head office",
+  "owner": "Finance and Workplace Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Deadline",
+      "body": "Submit an expense claim in SpendDesk within thirty calendar days of the transaction. Attach the itemized receipt, business purpose, cost centre, and manager approval. A card statement alone does not replace the receipt. Keep any personal identifiers out of shared examples.",
+      "facts": [
+        {
+          "id": "expense-claims-1",
+          "text": "Submit expense claims within 30 days with an itemized receipt."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Review",
+      "body": "The manager checks claims within five business days. Finance Operations then includes approved claims in the next fortnightly reimbursement cycle. Missing receipts require a Finance exception review before payment. Never split a claim to avoid an approval limit.",
+      "facts": [
+        {
+          "id": "expense-claims-2",
+          "text": "Approved expenses are reimbursed in the next fortnightly payment cycle."
+        }
+      ]
+    }
+  ]
+}

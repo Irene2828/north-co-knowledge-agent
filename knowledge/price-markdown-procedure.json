@@ -1,0 +1,32 @@
+{
+  "id": "price-markdown-procedure",
+  "title": "Price markdown procedure",
+  "category": "Store procedures",
+  "owner": "Store Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Authorization",
+      "body": "Merchandising publishes authorized markdown batches in StockDesk each Tuesday by 09:00 Eastern Time. The duty manager confirms the batch identifier before tickets are printed. Associates must not invent a local discount to clear slow-selling or damaged items.",
+      "facts": [
+        {
+          "id": "price-markdown-procedure-1",
+          "text": "Only approved markdown batches may change selling prices."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Verification",
+      "body": "One colleague changes tickets while another compares five sampled SKUs against the approved batch and POS price. Complete the check before trading starts. Record discrepancies in StockDesk and hold affected items off sale until the price has been corrected.",
+      "facts": [
+        {
+          "id": "price-markdown-procedure-2",
+          "text": "Two colleagues verify markdown tickets before the floor opens."
+        }
+      ]
+    }
+  ]
+}
