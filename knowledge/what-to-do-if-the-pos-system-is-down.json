@@ -1,0 +1,32 @@
+{
+  "id": "what-to-do-if-the-pos-system-is-down",
+  "title": "What to do if the POS system is down",
+  "category": "Safety & IT",
+  "owner": "Operations Support",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "First response",
+      "body": "The duty manager checks the terminal’s power and network indicator, then opens a priority incident with the IT Service Desk. Restart the terminal only once when instructed by IT. Record the store number, affected terminal number, and approximate outage time.",
+      "facts": [
+        {
+          "id": "what-to-do-if-the-pos-system-is-down-1",
+          "text": "Check power and network, then contact the IT Service Desk."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Payments",
+      "body": "During an outage, never collect payment-card details on paper, personal devices, or chat. Offline card transactions are not permitted. Pause card sales until IT confirms restoration. The duty manager may arrange a stock hold until the end of the next trading day.",
+      "facts": [
+        {
+          "id": "what-to-do-if-the-pos-system-is-down-2",
+          "text": "Do not write down card details or accept offline card payments."
+        }
+      ]
+    }
+  ]
+}

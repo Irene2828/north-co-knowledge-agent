@@ -1,0 +1,32 @@
+{
+  "id": "travel-policy",
+  "title": "Travel policy",
+  "category": "Head office",
+  "owner": "Finance and Workplace Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Approval",
+      "body": "Obtain written manager approval before booking business travel. Use economy rail or economy flights and select refundable fares only when there is a documented business need. Travel between stores should combine visits where practical. Do not book first and seek routine approval later.",
+      "facts": [
+        {
+          "id": "travel-policy-1",
+          "text": "Get manager approval before booking business travel."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Limits",
+      "body": "The standard hotel ceiling is two hundred and twenty Canadian dollars per night before tax. Meals are capped at sixty-five Canadian dollars per day with itemized receipts. Exceptions need Finance Operations approval before booking. Claims follow the thirty-day expense submission deadline.",
+      "facts": [
+        {
+          "id": "travel-policy-2",
+          "text": "The hotel cap is CAD 220 nightly before tax; meals are capped at CAD 65 daily."
+        }
+      ]
+    }
+  ]
+}

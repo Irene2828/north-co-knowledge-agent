@@ -1,0 +1,32 @@
+{
+  "id": "booking-a-meeting-room",
+  "title": "Booking a meeting room",
+  "category": "Head office",
+  "owner": "Finance and Workplace Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Booking",
+      "body": "Use the shared room calendar to reserve a head-office meeting room. Include a business topic, start time, end time, and expected attendance. Cedar seats six and Harbour seats twelve. Room capacities are limits, not suggestions, and must include every attendee.",
+      "facts": [
+        {
+          "id": "booking-a-meeting-room-1",
+          "text": "Book head-office meeting rooms in the shared calendar."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Courtesy",
+      "body": "Cancel a reservation at least half an hour before its start if the room is no longer needed. Leave the table clear, disconnect guest devices, and end on time. Recurring reservations are reviewed monthly by Workplace Operations to prevent unused blocks.",
+      "facts": [
+        {
+          "id": "booking-a-meeting-room-2",
+          "text": "Release unused room bookings at least 30 minutes beforehand."
+        }
+      ]
+    }
+  ]
+}

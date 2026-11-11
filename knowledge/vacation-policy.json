@@ -1,0 +1,32 @@
+{
+  "id": "vacation-policy",
+  "title": "Vacation policy",
+  "category": "HR",
+  "owner": "People Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Entitlement",
+      "body": "Full-time employees receive fifteen paid vacation days each calendar year. Part-time employees accrue vacation pay at four percent of eligible earnings. The planning year runs from January 1 to December 31. New hires receive a prorated allocation from their start date.",
+      "facts": [
+        {
+          "id": "vacation-policy-1",
+          "text": "Vacation allowance is 15 days per year for full-time staff."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Requests",
+      "body": "Requests go through StaffHub at least three weeks before the first day off. The store manager responds within five business days. Approval depends on coverage, with no more than two floor associates away on the same day.",
+      "facts": [
+        {
+          "id": "vacation-policy-2",
+          "text": "Submit vacation requests 21 days ahead in StaffHub."
+        }
+      ]
+    }
+  ]
+}

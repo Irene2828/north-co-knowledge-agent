@@ -1,0 +1,32 @@
+{
+  "id": "store-safety-checklist",
+  "title": "Store safety checklist",
+  "category": "Safety & IT",
+  "owner": "Operations Support",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Daily check",
+      "body": "At opening and closing, inspect marked exits, walking routes, floor surfaces, and access to fire equipment. Keep stock and delivery cages away from exit paths. The duty manager records completion in the daily checklist and assigns any immediate corrective action.",
+      "facts": [
+        {
+          "id": "store-safety-checklist-1",
+          "text": "Inspect exits, floors and fire equipment at opening and closing."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Incident",
+      "body": "For an immediate threat to life or safety, call emergency services first and follow evacuation signage. Notify the duty manager when safe. For a spill, guard the area until it is cleaned. Record the incident without including personal or medical information in shared notes.",
+      "facts": [
+        {
+          "id": "store-safety-checklist-2",
+          "text": "Call emergency services for immediate danger, then notify the duty manager."
+        }
+      ]
+    }
+  ]
+}

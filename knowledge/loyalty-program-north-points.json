@@ -1,0 +1,32 @@
+{
+  "id": "loyalty-program-north-points",
+  "title": "Loyalty program \"North Points\"",
+  "category": "Product & customers",
+  "owner": "Retail Experience",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Earning",
+      "body": "Members earn one point for every Canadian dollar of eligible merchandise spending before tax. Gift-card purchases do not earn points; merchandise purchased with a gift card does. The associate must verify membership privately before finishing the sale.",
+      "facts": [
+        {
+          "id": "loyalty-program-north-points-1",
+          "text": "North Points earns 1 point per CAD 1 of eligible spending."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Redemption",
+      "body": "One hundred points can be redeemed for five Canadian dollars off eligible merchandise. Redemption cannot be stacked with the employee discount. Points associated with a returned item are reversed. Ask the duty manager to resolve missing points without copying membership details into a shared log.",
+      "facts": [
+        {
+          "id": "loyalty-program-north-points-2",
+          "text": "Redeem 100 North Points for CAD 5 off eligible merchandise."
+        }
+      ]
+    }
+  ]
+}

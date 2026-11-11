@@ -1,0 +1,20 @@
+{
+  "name": "north-co-knowledge-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server.js",
+    "build": "vite build",
+    "test": "node --test tests/*.test.js",
+    "eval": "node --env-file-if-exists=.env scripts/eval.js",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "vite": "^7.2.2",
+    "@playwright/test": "^1.56.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

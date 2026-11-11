@@ -1,0 +1,32 @@
+{
+  "id": "cash-register-end-of-day-count",
+  "title": "Cash register: end-of-day count",
+  "category": "Store procedures",
+  "owner": "Store Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Counting",
+      "body": "After trading ends, two colleagues count each register away from customer view. Separate the standard two-hundred-dollar Canadian float from the day’s takings. Compare cash totals with the POS close report and record the count in the reconciliation form.",
+      "facts": [
+        {
+          "id": "cash-register-end-of-day-count-1",
+          "text": "Two colleagues count each till and retain a CAD 200 float."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Variance",
+      "body": "Recount any difference once before submitting the reconciliation. A variance exceeding ten Canadian dollars goes to the duty manager the same evening. Never use personal funds to make a till balance. Seal the deposit and place it in the safe.",
+      "facts": [
+        {
+          "id": "cash-register-end-of-day-count-2",
+          "text": "Escalate a cash variance above CAD 10 to the duty manager."
+        }
+      ]
+    }
+  ]
+}

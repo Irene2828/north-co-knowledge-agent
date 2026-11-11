@@ -1,0 +1,32 @@
+{
+  "id": "overtime-rules",
+  "title": "Overtime rules",
+  "category": "HR",
+  "owner": "People Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Approval",
+      "body": "Overtime requires written approval from the store manager before the extra hours are worked. Never clock out and continue working. All hours actually worked must be recorded, even when advance approval was missed. People Operations resolves any discrepancy privately.",
+      "facts": [
+        {
+          "id": "overtime-rules-1",
+          "text": "Get manager approval before working overtime."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Pay",
+      "body": "Payroll applies the overtime thresholds and rates required in the province where the employee works. This handbook does not set a single national hourly threshold. Managers submit approved timesheets every second Monday by noon Eastern Time.",
+      "facts": [
+        {
+          "id": "overtime-rules-2",
+          "text": "Payroll checks overtime against the employee’s provincial rules."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "return-and-exchange-policy-customers",
+  "title": "Return and exchange policy (customers)",
+  "category": "Product & customers",
+  "owner": "Retail Experience",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Window",
+      "body": "Customers can request a return or exchange within thirty calendar days of purchase with a receipt or verified digital proof. Merchandise must be unworn with original tags attached. Change-of-mind returns do not include items marked final sale at purchase.",
+      "facts": [
+        {
+          "id": "return-and-exchange-policy-customers-1",
+          "text": "The return and exchange window is 30 days from purchase."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Refunds",
+      "body": "Approved refunds use the original payment method. Gift-card purchases return to a gift card. Exchanges depend on available stock; an associate must not promise a size that is not available. Refer faulty-goods concerns to the duty manager for assessment under applicable consumer rights.",
+      "facts": [
+        {
+          "id": "return-and-exchange-policy-customers-2",
+          "text": "Eligible refunds go back to the original payment method."
+        }
+      ]
+    }
+  ]
+}

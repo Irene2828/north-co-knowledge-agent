@@ -1,0 +1,32 @@
+{
+  "id": "handling-a-customer-return",
+  "title": "Handling a customer return",
+  "category": "Store procedures",
+  "owner": "Store Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Eligibility",
+      "body": "Check the purchase date and receipt or verified digital proof before processing a return. The return period is thirty calendar days from purchase. Items must be unworn with tags attached, and final-sale merchandise is excluded from change-of-mind returns.",
+      "facts": [
+        {
+          "id": "handling-a-customer-return-1",
+          "text": "Customer returns require proof of purchase within 30 days."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Processing",
+      "body": "Use the return function in the POS and refund the original tender. Do not substitute cash for a card purchase. A customer without proof of purchase should be referred to the duty manager; do not promise a refund or override the policy.",
+      "facts": [
+        {
+          "id": "handling-a-customer-return-2",
+          "text": "Refund eligible returns to the original payment method."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "remote-work-head-office",
+  "title": "Remote work (head office)",
+  "category": "HR",
+  "owner": "People Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Schedule",
+      "body": "Head-office colleagues may request up to two remote days per week, subject to manager approval and team coverage. This arrangement does not apply to store floor roles. Wednesday is the shared office day for the merchandising and operations teams.",
+      "facts": [
+        {
+          "id": "remote-work-head-office-1",
+          "text": "Head-office teams may work remotely up to 2 days weekly with approval."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Equipment",
+      "body": "Remote work uses an issued, managed laptop with the company VPN enabled. Documents stay in approved company storage. Staff must use a private workspace for calls and lock the screen whenever leaving the desk. Report a lost device to IT immediately.",
+      "facts": [
+        {
+          "id": "remote-work-head-office-2",
+          "text": "Use a company-managed device and VPN for remote work."
+        }
+      ]
+    }
+  ]
+}

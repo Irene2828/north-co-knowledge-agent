@@ -1,0 +1,32 @@
+{
+  "id": "onboarding-checklist-new-store-staff",
+  "title": "Onboarding checklist (new store staff)",
+  "category": "HR",
+  "owner": "People Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "First shift",
+      "body": "On the first shift, the duty manager checks work authorization privately, confirms emergency exits, and demonstrates the incident log. New colleagues complete the safety module and a supervised point-of-sale practice transaction before handling a customer on their own.",
+      "facts": [
+        {
+          "id": "onboarding-checklist-new-store-staff-1",
+          "text": "New staff complete safety and POS training before serving alone."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "First week",
+      "body": "Within seven calendar days, complete the return policy, cash handling, accessibility, and device security modules in StaffHub. A buddy signs the checklist after two supervised opening or closing shifts. The store manager checks completion at the end of week one.",
+      "facts": [
+        {
+          "id": "onboarding-checklist-new-store-staff-2",
+          "text": "Complete onboarding modules within 7 days of starting."
+        }
+      ]
+    }
+  ]
+}

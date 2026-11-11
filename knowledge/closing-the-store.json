@@ -1,0 +1,32 @@
+{
+  "id": "closing-the-store",
+  "title": "Closing the store",
+  "category": "Store procedures",
+  "owner": "Store Operations",
+  "effective": "2026-03-01",
+  "intro": "This North & Co. internal guide applies to the fictional Canadian retail chain of 40 stores. The current edition took effect on March 1, 2026. The responsible team reviews it each September. Use the approved workflow below and ask the duty manager when the documented steps do not cover a situation.",
+  "sections": [
+    {
+      "id": "policy",
+      "title": "Customers",
+      "body": "The closing pair checks every fitting room, washroom, and stockroom before locking the entrance. Confirm that no customers remain. Keep marked emergency exits usable until the final colleagues leave. The duty manager signs the closing checklist in the daily store log.",
+      "facts": [
+        {
+          "id": "closing-the-store-1",
+          "text": "Check fitting rooms and exits before locking the store."
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "title": "Security",
+      "body": "After the end-of-day cash count, secure the deposit in the safe and shut down nonessential equipment. The closing pair sets the alarm and leaves together. Never share alarm codes in chat or write them on the closing checklist.",
+      "facts": [
+        {
+          "id": "closing-the-store-2",
+          "text": "Two colleagues leave together after setting the alarm."
+        }
+      ]
+    }
+  ]
+}
